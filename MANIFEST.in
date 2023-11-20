@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bantech_sa *.css
+recursive-include bantech_sa *.csv
+recursive-include bantech_sa *.html
+recursive-include bantech_sa *.ico
+recursive-include bantech_sa *.js
+recursive-include bantech_sa *.json
+recursive-include bantech_sa *.md
+recursive-include bantech_sa *.png
+recursive-include bantech_sa *.py
+recursive-include bantech_sa *.svg
+recursive-include bantech_sa *.txt
+recursive-exclude bantech_sa *.pyc
